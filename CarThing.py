@@ -22,8 +22,8 @@ from spotipy.oauth2 import SpotifyOAuth
 import spotipy
 
 # Spotify API Credentials
-SPOTIPY_CLIENT_ID = 'f2cabbb487714e4499296600124c0ce9'
-SPOTIPY_CLIENT_SECRET = 'ba3eec09db8748d888b2b72b140ec81b'
+SPOTIPY_CLIENT_ID = None
+SPOTIPY_CLIENT_SECRET = None # Oops didn't mean to leave that in
 SPOTIPY_REDIRECT_URI = 'http://localhost/'
 SCOPE = 'user-read-playback-state,user-modify-playback-state,user-library-read,user-library-modify'
 
